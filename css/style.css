@@ -1,0 +1,86 @@
+main{
+    background-image: url(../img/istockphoto-464421534-1024x1024.jpg);
+    padding: 30px;
+}
+p{
+    font-size: 25px;
+}
+header{
+
+    display: flex;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 25px;
+}
+footer{
+    padding: 10px;
+    margin: 25px;
+    background-color: brown;
+}
+.minu{
+
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    padding: 10px;
+    color: cornsilk;
+}
+a{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: crimson;
+}
+#final:hover{
+    text-align: center;
+    color: blue;
+}
+ul {
+    margin: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    overflow: visible ;
+    background-color: brown;
+    }
+li {
+    float: left;
+    }
+li a {
+    display: inline;
+    background-color: brown;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    }
+li a:hover {
+    background-color: cornflowerblue;
+    }
+ul ul{
+        margin: 0;
+        list-style-type: none;
+        overflow: visible;
+        padding: 0;
+        z-index: 0;
+        background-color: brown;
+        display:flex;
+        flex-direction: column;
+    }
+.dropdown {
+        position: relative;
+        display: inline-block;
+        }
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: brown;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 10px;
+        z-index: 1;
+        }
+.dropdown:hover .dropdown-content {
+        display: block;
+    }
+ul ul li{
+    padding: 8px;
+}
